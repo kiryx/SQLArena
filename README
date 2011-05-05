@@ -1,0 +1,11 @@
+*Sprawdzarka SQL:
+*Authors: Anna Warpechowska, Konras Sredzinski, Krzysztof Nowak
+
+
+
+Uzywanie clear_pyc.sh (usuwa rekurencyjnie wszystkie pyce)
+./clear_pyc.sh 
+
+
+jak nie da sie odpalić to wczesniej nadać prawa uruchamiania:
+chmod a+x ./clear_pyc.sh
