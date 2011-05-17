@@ -4,6 +4,8 @@ from django.contrib.auth.models import User
 class Baza(models.Model):
 	nazwa = models.CharField(max_length=20)
 	skrypt = models.TextField()
+	def __unicode__(self):
+		return self.nazwa
 	
 class Problem(models.Model):
 	tresc = models.TextField()
