@@ -51,7 +51,8 @@ import os.path
 #Potem cos wymysle i przeniose to do zewnetrznego pliku np proj_path.txt ktora kazdy ma na swoim kompie (nie wrzucac do gita! zatem nie dodawac plikow przez "git add ."
 
 #Path Krzysiek
-PROJECT_PATH = r'/home/alice/Projekty/Django/SQLArena/'
+import project_path
+PROJECT_PATH = project_path.get_path()
 
 #Path Konjo
 #PROJECT_PATH = r'C:/Users/Konrad/Desktop/SQLArena/'
