@@ -1,0 +1,7 @@
+{% extends "index.html" %}
+{% block content %}
+{% for b in baza %}
+<h2>{{ b.nazwa }} </h2>
+<p>{{ b.skrypt }} </p>
+{% endfor %}
+{% endblock %}
