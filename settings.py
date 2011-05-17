@@ -52,13 +52,13 @@ import os.path
 
 #Path Krzysiek
 import project_path
-PROJECT_PATH = project_path.get_path()
+#PROJECT_PATH = project_path.get_path()
 
 #Path Konjo
 #PROJECT_PATH = r'C:/Users/Konrad/Desktop/SQLArena/'
 
 #Path Ania
-#PROJECT_PATH = r'C:/Users/NIE OGARNIAM/SQLArena/'
+PROJECT_PATH = r'C:/Users/Ania/Desktop/SQLArena/'
 
 MEDIA_ROOT = os.path.join(PROJECT_PATH,'media/')
 
